@@ -1,0 +1,86 @@
+---
+output:
+  #bookdown::html_document2: default
+  #bookdown::word_document2: default
+  bookdown::pdf_document2:
+    template: templates/brief_template.tex
+    citation_package: biblatex
+documentclass: book
+bibliography: references.bib
+---
+
+# Literature Review {#lit-review}
+
+\minitoc <!-- this will include a mini table of contents-->
+
+Beginning with a discussion of the analytical issues which motivate the study, the chapter goes on to outline several key ways in which housing submarkets have been spatially delineated. The development of urban morphology is then summarised, focussing particularly on the ways in which recent data, technological, and methodological advances have allowed concepts from the field to be operationalised in (computational) quantitative research. Synthesising the two preceding themes, the key ways in which urban morphology has been used to partition space are outlined. The chapter ends with a review of possible gaps in the literature which the present research could seek to fill.
+
+<!-- write the lit review in present tense -->
+
+## The pitfalls of partitioning space
+
+A core tool of geographic analysis is the aggregation of observations based on where they happen. In this way, a better understanding can be gained of phenomena that vary over space, be that the distribution of poverty in a city, the spread of a pandemic, or the composition of housing submarkets.
+
+A persistent concern in geographic analysis is that when aggregating observations at certain locations into geographical units, the trends observed (and the results of any subsequent analyses based on these) will change depending on the spatial unit into which observations are aggregated. This issue was first described as the "Modifiable Areal Unit Problem" (MAUP) by @openshaw1979, and has since been a perennial subject of geographical scrutiny [@openshaw1984; @fotheringham1991; @tranmer2001; @duque2018]. While several proposals have been made to minimise its effects [@king1997; @nakaya2000; @holt1996] it remains the case that "there is no single best method that totally avoids the MAUP as long as data aggregation is involved" [@zhang2005: 77]. For this reason, it is imperative that when aggregating spatial data, researchers are aware of the MAUP and the possible effects it may have on any conclusions they draw.
+
+One approach to somewhat moderating the impact of the MAUP is to use a method which is not built on the aggregation of spatial units. To give one such example, @calafiore2021 generate functional neighbourhoods from user origin-destination flow data from Foursquare check-ins, using a spatially weighted community detection algorithm adopted from network science. While consequent analyses employing the resultant spatial units would be as susceptible to the MAUP as any other choice of spatial units, the method avoids the need to choose a base spatial unit from which to build the segmentations.
+
+### Spatial housing submarkets
+
+While the term is defined and used in various ways such that "no single definition of a housing submarket exists" [@raeOnlineHousingSearch2015: 457], a housing submarket can generally be considered to be a set of dwellings sharing similar characteristics [@bourassa1999], often defined with a spatial contiguity constraint such that there are no multi-part spatial housing submarkets; a line can be drawn on the submarket map linking any dwelling to any other within the same submarket without crossing into a different submarket.
+
+Past research operationalises the concept in a range of ways. Early works use existing divisions: for example @palm1978 partitions the San Francisco-Oakland region into housing submarkets based on the districts covered by each of the seventeen Boards of Realtors in the region. Another approach is to make use of convenient existing administrative spatial units, as done by @adair1996, who determine spatial housing submarkets by amalgamating the existing ward divisions of Belfast into larger groupings with common characteristics.
+
+The turn of the millennium saw the development of a range of quantitative techniques for determining the spatial bounds of housing submarkets, a 'microstructural turn' in housing analysis [@smith2013: 2] resulting from the increased availability of "large micro-datasets that contain geo-coded details of dwellings, their characteristics and values" [@keskin2017: 1447] and a concomitant advancement in the methods available to analyse these data.
+
+<!--# (maybe add something about this mirroring developments in UMM) -->
+
+Among these quantitative techniques, @bourassa1999 produce one of the first examples of cluster-based housing submarket spatial segmentation, defining spatial housing submarkets in Sydney and Melbourne using both *k*-means and Ward's method for agglomerative clustering. @kauko2002 use two neural network techniques to identify housing submarkets in Helsinki, while @helbich2013 present "a data-driven spatial regionalization framework for housing market segmentation" (ibid, 885) incorporating several techniques including multiscale geographically weighted regression, principal component analysis, *k*-means, Spatial 'K'luster Analysis by Tree Edge Removal (SKATER), and various checks of predictive accuracy.
+
+## Urban morphology {#urban-morphology}
+
+Urban morphology is the study of the physical form of cities, towns and villages. While the various definitions of urban morphology--- @oliveira2016 cites nine---differ in their details, each considers the elements of which cities are composed, particularly their "urban tissues, streets (and squares), urban plots, [and] buildings" [@oliveira2016: 2]. By providing a descriptive language to discuss the structure of built environments, urban morphology presents a set of tools to help 'read' urban forms, and thereby understand the effects of differing urban forms on a wide array of social, economic and environmental processes [@kropf2017: 10].
+
+Urban morphology has been associated with (and hence used to understand) many different factors which vary spatially in built environments. A typical application of urban morphology is as a tool to understand the historical development of a town or city, such as Baker's [-@baker2009] study of the historical townscape of Hereford. Other applications look at the relationship between urban form and social issues, such as poverty [@vaughan2005] or public health [@sarkar2013]; environmental concerns like heat-energy demand and efficiency [@rode2014]; and concerns with both social and environmental components, such as the effect of urban morphology on birdsong loudness and the visibility of green areas [@hao2015].
+
+### Urban morphometrics
+
+Traditional urban morphological research has primarily made use of qualitative methods, using records such as historical and current maps and photographs of the area in question to determine the nature of a settlement's morphology at a given point in time. These methods lend themselves to detailed examinations of the particular historico-geographical context of a given case study settlement, but are labour- and time-intensive, and cannot be easily scaled to larger geographical areas.
+
+In recent years, an increasing availability of both appropriate data and technological tools has made possible a proliferation of quantitative urban morphology, employing an accompanying growing body of methodologies. This mirrors broader trends in geography [@arribas-bel2014; @wolf2019; @singleton2021] and indeed in social science more broadly [@lazer2017], where more and more research is employing methods drawn from data science [and the methodological traditions that precede the term; see @donoho2017].
+
+Among the first explicit contributions to the nascent methodology-cum-subfield of urban morphometrics (UMM), @dibble2016 seeks to establish "a systematic, quantitative and comprehensive process of measuring, defining and classifying urban form" (ibid, vi). Since then, an expanding body of urban morphometric research has been published [@dibble2019; @araldi2019; @bobkova2021], quantitatively examining urban form in a number of contexts and from a number of perspectives.
+
+In this landscape of novel methodological approaches to quantitative urban morphology, @fleischmann2020measuring survey a wide range of such studies and find a catalogue of cases in which the same term is used in multiple quantitative studies of urban morphology, but with different meanings in different studies. In an effort to overcome these terminological inconsistencies, they establish "a systematic and comprehensive framework to classify urban form characters" (ibid, 1). To this end, they introduce the *Index of Elements*, a terminological framework which distinguishes the *Index* of an urban form character (what is being measured, for example 'area' or 'number of neighbours') and the *Element* of urban form being measured (for example 'building' or 'block').
+
+In the interest of minimising this work's contribution to the aforementioned terminological inconsistencies, this dissertation generally adopts this proposed terminological framework, and in all cases seeks to clearly define the key terms used throughout. In addition to the use of 'elements' to describe the element of urban form being measured, henceforth:
+
+-   '**character**' is used to refer to a measurable "characteristic ... of one kind of urban form that distinguishes it from another kind" (ibid, 2);
+-   '**tessellation cell**' refers to the spatial unit produced in the process of morphological or enclosed tessellation (described in further detail in the [next chapter](#base-spatial-units));
+-   '**urban tissue**' refers to "a distinct area of a settlement in all three dimensions, characterised by a unique combination of streets, blocks/plot series, plots, buildings, structures and materials and usually the result of a distinct process of formation at a particular time or period" [@kropf2017: 89];
+-   '**segmentation**' refers a) to the way in which an urban area is divided into spatial units through the clustering methodology described in the next chapter; and b) to the output of such a methodology, as in "this segmentation clearly delineates the Ciutat Vella";
+-   '**clustering**' refers more narrowly to the part of the methodology in which base spatial units are assigned to a group ('assigned a cluster label') on the basis of the statistical similarity of the characters of each spatial unit.
+
+Past research has laid the groundwork for this study by identifying a wide range of ways in which urban morphology can be measured, and consequently by developing the computational tools to calculate these morphometric characters in a way which is scalable to a large urban area [@fleischmannEvolutionUrbanPatterns2021].
+
+### Defining the spatial unit {#spatial-unit}
+
+Fundamental to a spatial segmentation produced using a clustering methodology (be that according to demography, morphology, or any other character or set thereof) is the smallest spatial unit used. @dibble2015 define this as the Operational Taxonomic Unit (OTU), borrowing the term used in the biological field of morphometrics to describe the smallest unit used when comparing organisms' characteristics in the process of taxonomic classification. In biology, the OTU is almost always the individual organism, but in urban morphology the choice of OTU is less straightforward.
+
+In his seminal study of the urban morphology of Alnwick, Northumberland, @conzen1960 refers to the smallest unit of analysis as a 'plot', "a unit of land use ... physically defined by boundaries on or above ground" [@conzen1960: 5]. These plots are then grouped into 'plan-units': morphologically distinct areas of the town, of which Conzen identifies a taxonomy of 13 major and 49 sub-types. The use of plots has been criticised, however, as "more or less ambiguous" [@kropf1997plot: 1], as the multiple definitions with which the term is used give rise to different---and sometimes contradictory---plot geometries [@kropf2018]. @mehaffy2010 study urban morphology through the structure of 'sanctuary areas', defined as "the area between major thoroughfares" (ibid, 23). Other studies have sought to somewhat circumvent the problem of determining the smallest spatial unit on the basis of current use by instead using an arbitrary unit, such as a regular grid [@jochem2021; @mercadéaloy2018; @rode2014].
+
+Seeking a consistent and universally applicable base spatial unit, @fleischmann2020tessellation propose 'morphological tessellation' (MT) as a method for deriving such a unit for use in urban morphometrics. Using only building footprints, the method uses Voronoi tessellation to derive the 'morphological cell', an alternative to the plot as traditionally conceived in studies of urban morphology. Building on this morphological tessellation, @dab_mf_2021 introduce 'enclosed tessellation' (ET) as an alternative spatial unit. In addition to morphological tessellation's use of building footprints, ET incorporates additional barriers to delineate some cell boundaries such as roads, rivers, and railways.
+
+### Approaches to urban morphological spatial segmentation
+
+Within urban morphometric research there are multiple approaches to quantitatively partitioning (usually urban) spaces on the basis of their morphology. Both approaches discussed below first divide space into the base spatial units discussed above, before grouping these on the basis of morphology to form novel segmentations.
+
+In methodologies using supervised machine learning techniques, the researcher must first define the classes into which they wish the study area to be categorised. Each base spatial unit is then assigned to one of these existing classes based on its statistical similarity (in the characters of interest) to each class. As an example, @colaninno2011 present a method to classify Barcelona into seven different morphology-based typologies.
+
+Conversely, methodologies using unsupervised machine learning techniques, the prevailing approach to urban morphological spatial segmentation, do not require this a priori specification of classes into which the base spatial units should be grouped. Examples of this approach include work by @fleischmann2021.
+
+## Research gaps
+
+As presented above, urban morphometrics is an actively developing field of research, and as such there is a limited literature presenting quantitative methodologies for producing urban morphology based spatial segmentations, and assessing the methodological parameters which affect these segmentations. In particular, to date no research has incorporated urban morphology into a delineation of housing submarkets.
+
+More generally, there is a need for spatial units which reflect the heterogeneity of variables as they are distributed across urban spaces. Because urban morphology is putatively correlated with a wide range of spatially varying factors (as outlined [above](#urban-morphology)), spatial units which reflect a city's urban morphology could be successful at capturing the variation in a wide range of different variables. This may offer one means to reduce the deleterious effects of the MAUP incurred when arbitrary administrative geographies are used to aggregate spatial data.

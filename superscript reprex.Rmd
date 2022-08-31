@@ -1,0 +1,62 @@
+---
+title: "superscript reprex"
+output:
+  bookdown::pdf_document2:
+    template: templates/brief_template.tex
+    latex_engine: xelatex
+editor_options: 
+  chunk_output_type: inline
+---
+
+unicode superscript:
+
+1: ¹
+
+2: ²
+
+3: ³
+
+```{r include=FALSE}
+# libraries
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+```
+
+<br>
+
+<br>
+
+```{r include=TRUE}
+
+islands[1:10] %>% 
+  kable() %>% 
+  add_header_above(c("", "Area (miles²)"))
+```
+
+<br />
+
+```{r}
+islands[1:10] %>% 
+  kable() %>% 
+  add_header_above(c("", "Area (miles^2^)"))
+```
+
+<br>
+
+```{r}
+islands[1:10] %>% 
+  kable() %>% 
+  add_header_above(c("", "Area (miles<sup>2</sup>)"))
+```
+
+<br>
+
+```{r}
+islands[1:10] %>%
+  kable() %>%
+  add_header_above(c("", expression("Area (miles"^2*")")))
+# --> won't knit with error
+# Error in as.data.frame.default(x[[i]], optional = TRUE) :
+# cannot coerce class ‘"expression"’ to a data.frame
+```

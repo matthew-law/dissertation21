@@ -1,0 +1,43 @@
+\babel@toc {english}{}\relax 
+\contentsline {xchapter}{}{{\fontencoding {T1}\selectfont vii}}{chapter*.5}%
+\contentsline {xchapter}{}{{\fontencoding {T1}\selectfont viii}}{chapter*.6}%
+\contentsline {xchapter}{}{{\fontencoding {T1}\selectfont ix}}{chapter*.7}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introduction}{1}{chapter.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Literature Review}{4}{chapter.2}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Methodology}{12}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Generating enclosed tessellation.}}{15}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces H3 partitions the globe into hexagonal cells.}}{17}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Different base spatial units.}}{18}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Correlation matrix of morphometric characters.\relax }}{21}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Neighbours of a tessellation cell.}}{22}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces An example elbow plot.}}{25}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces A flowchart showing the methodological differences in the construction of each segmentation.}}{28}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces House price indices coverage map.}}{30}{figure.caption.16}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Results}{32}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Segmentation 1: Morphological tessellation.}}{33}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Segmentation 2: Enclosed tessellation.}}{34}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Segmentation 3: ET transposed to block.}}{35}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Segmentation 4: ET transposed to H3}}{36}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Segmentation 5: H3 'basic'.}}{37}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Segmentation 6: H3 clustering using ET characters.}}{38}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Segmentation 7: Spatially constrained MT clustering.}}{39}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Existing spatial units.}}{42}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Every type plot by house price QCoD and area.\relax }}{44}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Segmentation averages of typologies plot by house price QCoD and area.\relax }}{45}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Every polygon plot by house price QCoD and area.\relax }}{48}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Segmentation averages of polgyons plot by house price QCoD and area.\relax }}{49}{figure.caption.30}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Discussion}{50}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The effect of an otherwise identical segmentation on contextual characters constructed using different order spatial weights.}}{53}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Islands produced by enclosed tessellation.}}{57}{figure.caption.32}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusion}{59}{chapter.6}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Additional Figures}{63}{appendix.A}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Segmentation averages of polgyons plot by house price QCoD and area.\relax }}{64}{figure.caption.35}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Enclosed tessellation with primary characters.}}{65}{figure.caption.36}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Enclosed tessellation with 3rd order contextual characters.}}{66}{figure.caption.37}%

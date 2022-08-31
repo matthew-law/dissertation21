@@ -1,0 +1,35 @@
+﻿Variable name,Index,Element,Description,H3
+blg_Height,Height,Building,Height of building,*
+blg_FloorArea,Floor area,Building,Floor area of building,*
+blg_Area,Area,Building,Area of building,*
+blg_Volume,Volume,Building,Volume of building,*
+blg_Perimeter,Perimeter,Building,Perimeter of building,*
+blg_CourtyardArea,Courtyard area,Building,Area of holes in buildings (aka courtyards),*
+blg_FormFactor,Form factor,Building,Compactness of building ,*
+blg_VolumeFacadeRatio,Volume to façade ratio,Building,"Ratio of building volume to area of the façade, a proxy for volumetric compactness",*
+blg_CircularCompactness,Circular compactness,Building,Ratio of area of building's enclosing circle to its area,*
+blg_Corners,Corners,Building,Number of corners the building has,*
+blg_Squareness,Squareness,Building,Squareness of building,*
+blg_EquivalentRectangularIndex,Equivalent rectangular Index,Building,Deviation of building from an equivalent rectangle,*
+blg_Elongation,Elongation,Building,"Ratio of shorter to longer dimension of the minimum bounding rectangle, a proxy for the deviation of the shape from a square",*
+blg_CentroidCornersMean,Centroid to corner mean,Building,Mean distance from building centroid to its corners,*
+blg_CentroidCornersSD,Centroid to corner standard deviation,Building,Standard deviation of distance from building centroid to its corners,*
+blg_Orientation,Orientation,Building,Orientation of the building,*
+blg_SharedWallsRatio,Shared walls ratio,Building,Ratio of shared walls to total perimeter,*
+blg_CellAlignment,Cell alignment,Building,Calculate the difference between cell orientation and orientation of building, 
+tess_Orientation,Orientation,Tessellation cell,Orientation of the tessellation cell (calculated via the bounding rectangle), 
+tess_LongestAxisLength,Longest axis length,Tessellation cell,Length of the longest axis of tessellation cell, 
+tess_Area,Area,Tessellation cell,Area of tessellation cell, 
+tess_CircularCompactness,Circular compactness,Tessellation cell,Ratio of area of tessellation cell's enclosing circle to its area, 
+tess_EquivalentRectangularIndex,Equivalent rectangular Index,Tessellation cell,Deviation of tessellation cell from an equivalent rectangle, 
+tess_WeightedNeighbours,Weighted neighbours,Tessellation cell,Number of tessellation cell neighbours divided by the cell perimeter, 
+tess_CoverageAreaRatio,Coverage area ratio,Tessellation cell,Proportion of tessellation cell covered by a building, 
+tess_FloorAreaRatio,Floor area ratio,Tessellation cell,Ratio of floor area to tessellation cell area, 
+blk_Area,Area,Block,Area of block, 
+blk_Perimeter,Perimeter,Block,Perimeter of block, 
+blk_CircularCompactness,Circular compactness,Block,Ratio of area of block's enclosing circle to area of block, 
+blk_EquivalentRectangularIndex,Equivalent rectangular Index,Block,Deviation of block from an equivalent rectangle, 
+blk_CompactnessWeightedAxis,Compactness-weighted axis,Block,"Compactness-weighted axis of block, a proxy of permeability of an area", 
+blk_Orientation,Orientation,Block,Orientation of the block (calculated via its bounding rectangle), 
+blk_WeightedNeighbours,Weighted neighbours,Block,Number of block neighbours divided by the block perimeter, 
+blk_WeightedBuildings,Weighted buildings,Block,Number of buildings within the block divided by the block area, 

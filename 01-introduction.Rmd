@@ -1,0 +1,44 @@
+---
+output:
+  bookdown::pdf_document2:
+    template: templates/brief_template.tex
+    citation_package: biblatex
+  #bookdown::word_document2: default
+  #bookdown::html_document2: default
+documentclass: book
+bibliography: references.bib
+---
+
+# Introduction {#introduction}
+
+\minitoc <!-- this will include a mini table of contents-->
+
+## Background
+
+Housing submarkets are sections of the real estate market which share similar characteristics. When defined spatially, existing spatial units (such as administrative neighbourhoods) are usually employed to represent these submarkets, either individually or through a grouping of neighbourhoods. When this approach is used to analyse the housing market, for example when producing price indices based on these spatial units, the end result can misrepresent the nature of the underlying property market(s) being studied. For example, if an administrative neighbourhood contains properties of significantly varying prices, the mean price index for the area will be unrepresentative of the properties in the area it seeks to represent.
+
+Urban morphology is the study of the physical form of the built environment. In this dissertation, a methodology is developed to partition a city (using the case study of Barcelona) into novel spatial units based on urban morphology. These are then assessed to determine how well they capture variation in both urban morphology and house prices in the city, and thus their suitability to be used as alternative spatial units to represent housing submarkets.
+
+When carrying out a complex multi-stage process such as the spatial segmentation presented in this dissertation, there are many different parameters which can be varied to produce different configurations of the output (in this case the spatial segmentation generated). This dissertation will examine differing approaches to (housing submarket) spatial segmentation, paying particular attention to the effects of different base spatial units; contextual characters; post hoc methods to simplify the segmentation geometry; and the clustering algorithm used.
+
+This research was undertaken in collaboration with [idealista](https://www.idealista.com/) and is based in part on previous work undertaken by Juan Ramón Selva-Royo and David Rey at that company.
+
+## Geographical context
+
+Although intended to be location-agnostic and usable wherever the requisite input data is available, the methods developed over the course of this dissertation were initially applied to the Spanish city of Barcelona, and the segmentations presented in this dissertation are of this city. The city was chosen on the recommendation of idealista, and comprises several distinct urban tissues with differing urban morphology: as such it is a good candidate for the development and assessment of a methodology for spatial segmentation based on urban morphology. Among these are the Ciutat Vella, the medieval old city, and the Eixample, the 19th Century grid of avenues and blocks.
+
+<!--# different BCN morphologies figure(s) -->
+
+## Aims
+
+The dissertation has three primary aims:
+
+-   Develop a methodology to partition an urban area into different spatial units of homogeneous urban morphology ('urban tissues').
+
+-   Assess the degree to which these novel spatial units capture variation in house prices, and therefore their suitability to use as spatial housing submarkets.
+
+-   Appraise the effects of a range of methodological parameters on the segmentations produced when following the general method presented in the dissertation.
+
+## Structure
+
+This Introduction has introduced the study, outlining the context, motivations, and key aims of the research. The following [Literature Review](#lit-review) summarises past research in areas relevant to the present study. The [Methodology](#methods) describes the methods used to complete the analyses and to obtain the results of this research. The [Results chapter](#results) reports the key results of the research presented in this dissertation, which are discussed in greater depth in the [Discussion](#discussion), explaining these results and their implications. Finally, the [Conclusion](#conclusion) summarises the dissertation's findings and offers potential avenues for further research.

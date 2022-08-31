@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>3 Methodology | Using Urban Morphology to Improve Housing Submarket Spatial Segmentation</title>
+<meta name="author" content="Matthew Law">
+<meta name="generator" content="bookdown 0.23 with bs4_book()">
+<meta property="og:title" content="3 Methodology | Using Urban Morphology to Improve Housing Submarket Spatial Segmentation">
+<meta property="og:type" content="book">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="3 Methodology | Using Urban Morphology to Improve Housing Submarket Spatial Segmentation">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.10/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.5.1/tabs.js"></script><script src="libs/bs3compat-0.2.5.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="templates/bs4_style.css">
+<link rel="stylesheet" href="templates/corrections.css">
+<meta name="description" content="This chapter describes the methods used to complete the analyses and to obtain the results of this research. First the general process followed to generate spatial segmentations based on urban...">
+<meta property="og:description" content="This chapter describes the methods used to complete the analyses and to obtain the results of this research. First the general process followed to generate spatial segmentations based on urban...">
+<meta name="twitter:description" content="This chapter describes the methods used to complete the analyses and to obtain the results of this research. First the general process followed to generate spatial segmentations based on urban...">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Using Urban Morphology to Improve Housing Submarket Spatial Segmentation</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="" href="introduction.html"><span class="header-section-number">1</span> Introduction</a></li>
+<li><a class="" href="lit-review.html"><span class="header-section-number">2</span> Literature Review</a></li>
+<li><a class="active" href="methods.html"><span class="header-section-number">3</span> Methodology</a></li>
+<li><a class="" href="results.html"><span class="header-section-number">4</span> Results</a></li>
+<li><a class="" href="discussion.html"><span class="header-section-number">5</span> Discussion</a></li>
+<li><a class="" href="conclusion.html"><span class="header-section-number">6</span> Conclusion</a></li>
+<li class="book-part">Appendix</li>
+<li><a class="" href="additional-figures.html"><span class="header-section-number">A</span> Additional Figures</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="methods" class="section level1" number="3">
+<h1>
+<span class="header-section-number">3</span> Methodology<a class="anchor" aria-label="anchor" href="#methods"><i class="fas fa-link"></i></a>
+</h1>
+<p><!-- this will include a mini table of contents--></p>
+<p>This chapter describes the methods used to complete the analyses and to obtain the results of this research. First the general process followed to generate spatial segmentations based on urban morphology is described, before the specific differences between seven different particular segmentations and the methodology used to compare these are each set out.</p>
+<p>The aim of the spatial segmentation process is to partition a city into areas with similar urban morphology. To do this, various components of urban morphology (‘characters’) are measured at a small scale throughout the city. The ‘base spatial unit’ is the small-scale area at which these characters are (generally) measured and reported. The units with similar values for these morphometric characters are then grouped (‘clustered’), thereby aggregating the base spatial units into larger areas with similar urban morphology.</p>
+<div id="base-spatial-units" class="section level2" number="3.1">
+<h2>
+<span class="header-section-number">3.1</span> Base spatial units<a class="anchor" aria-label="anchor" href="#base-spatial-units"><i class="fas fa-link"></i></a>
+</h2>
+<p>In the process of constructing each spatial segmentation, the urban area is first divided into many small spatial units (the OTU as discussed in the <a href="lit-review.html#spatial-unit">previous chapter</a>). These are then used as the building blocks from which the consequent classification of urban space is constructed. When these base spatial units are changed, the ways in which urban morphology is measured and clustered are changed and thus the resultant spatial segmentations change.</p>
+<div id="morphological-tessellation" class="section level3" number="3.1.1">
+<h3>
+<span class="header-section-number">3.1.1</span> Morphological tessellation<a class="anchor" aria-label="anchor" href="#morphological-tessellation"><i class="fas fa-link"></i></a>
+</h3>
+<p>As discussed in the <a href="lit-review.html#spatial-unit">previous chapter</a>, morphological tessellation uses the building footprints to generate a large number of fine-grain spatial units suitable for measuring features of urban morphology, consequently clustering these to create segmentations which reflect different urban tissues.</p>
+<p>The spatial units created (MT cells) are produced by generating Voronoi polygons around each building, thereby exhaustively dividing the space in question according to the nearest building to any given point. In this dissertation this process is implemented in Python using the <code>momepy</code> package <span class="citation">(<a href="references.html#ref-fleischmann2019" role="doc-biblioref">Fleischmann 2019</a>)</span>.</p>
+<p>Because of the minimal data requirement (the only data required are building footprints and the boundary of the area in which to generate the tessellation), MT can be used in a wide range of geographical contexts. For example, MT cells could be generated using building footprints derived purely from satellite or aerial imagery.</p>
+<div id="data-buildings-from-the-spanish-cadastre" class="section level4" number="3.1.1.1">
+<h4>
+<span class="header-section-number">3.1.1.1</span> Data: buildings from the Spanish Cadastre<a class="anchor" aria-label="anchor" href="#data-buildings-from-the-spanish-cadastre"><i class="fas fa-link"></i></a>
+</h4>
+<p>The buildings used to generate tessellation cells are taken from open data provided by the Spanish Cadastre (<em>Dirección General del Catastro</em>), an administrative registry which records the physical and legal characteristics of every property in Spain. Because of this administrative purpose and governmental mandate, the dataset has near-complete coverage at the national level. All unprotected data for each property can be downloaded free of charge, either directly from the <a href="http://www.sedecatastro.gob.es/">Cadastre website</a> or through an API or tool such as the <a href="https://plugins.qgis.org/plugins/Spanish_Inspire_Catastral_Downloader/">Spanish Inspire Catastral Downloader plugin for QGIS</a> <span class="citation">(<a href="references.html#ref-soriano2021" role="doc-biblioref">Soriano 2021</a>)</span>. The data provide detailed information about each building, including the building’s exact location, year of construction, height, footprint, and the number of residential units within the building.</p>
+<p>These data have been used in previous geographic data science research: <span class="citation">Daniel Arribas-Bel, Garcia-López, and Viladecans-Marsal (<a href="references.html#ref-arribas-bel2019" role="doc-biblioref">2019</a>)</span> used them to delineate improved boundaries for urban areas, while <span class="citation">Carpio-Pinedo, Benito-Moreno, and Lamíquiz-Daudén (<a href="references.html#ref-carpio-pinedo2021" role="doc-biblioref">2021</a>)</span> used the data to map land use mix as ‘walkable trips’. Because the dataset is formulated in accordance with the European INSPIRE (Infrastructure for Spatial Information in the European Community) directive, replicability studies could be relatively straightforward for other European countries with equivalent data.</p>
+<!--# maybe don't need all this detail -->
+<p>The data are provided as three different datasets: Cadastral Parcels (CP) describe “the basic unit of ownership” (i.e. the plot) irrespective of whether it has been built upon; Addresses (AD) provides identifiers for the location of each property; and Buildings (BU) gives geospatial information about each building.</p>
+<!--# map of buildings vs building parts (vs cadastral parcels) -->
+</div>
+</div>
+<div id="enclosed-tessellation" class="section level3" number="3.1.2">
+<h3>
+<span class="header-section-number">3.1.2</span> Enclosed tessellation<a class="anchor" aria-label="anchor" href="#enclosed-tessellation"><i class="fas fa-link"></i></a>
+</h3>
+<p>Enclosed tessellation (ET) is an alternative to morphological tessellation which makes use of road network data in addition to building footprints.</p>
+<p>The first step in creating the ET is to generate enclosures from the street network and city boundary. These areas are similar to the Sanctuary Area used in previous studies of urban form <span class="citation">(<a href="references.html#ref-mehaffy2010" role="doc-biblioref">Mehaffy et al. 2010</a>; <a href="references.html#ref-dibble2019" role="doc-biblioref">Dibble et al. 2019</a>)</span>, albeit they are constructed of all drivable roads and not solely of main roads. Within each of these enclosures, Voronoi polygons are generated around each building, partitioning the space within each enclosure according to the nearest building to create enclosed tessellation cells. Like MT, the ET cells were generated in Python using <code>momepy</code>.</p>
+<p>Because this is ultimately a segmentation of housing submarkets, ET cells containing no buildings are dropped at this stage. This means that unlike MT, the segmentation is not spatially exhaustive: certain areas without buildings are excluded from the final classification (commonly roundabouts and the central reservations of dual carriageways). This difference is discussed at greater length in the <a href="discussion.html#morphological-and-enclosed-tessellation">Discussion</a>. Figure <a href="methods.html#fig:making-ET">3.1</a> shows the process of generating enclosed tessellation cells.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:making-ET"></span>
+<img src="figures/making%20ET/a.png" alt="Generating enclosed tessellation: input buildings (dark green) and roads (red) data; plotting Voronoi polygons around each building within the enclosures formed by the roads; final tessellation." width="32%"><img src="figures/making%20ET/b.png" alt="Generating enclosed tessellation: input buildings (dark green) and roads (red) data; plotting Voronoi polygons around each building within the enclosures formed by the roads; final tessellation." width="32%"><img src="figures/making%20ET/c.png" alt="Generating enclosed tessellation: input buildings (dark green) and roads (red) data; plotting Voronoi polygons around each building within the enclosures formed by the roads; final tessellation." width="32%"><p class="caption">
+Figure 3.1: Generating enclosed tessellation: input buildings (dark green) and roads (red) data; plotting Voronoi polygons around each building within the enclosures formed by the roads; final tessellation.
+</p>
+</div>
+<div id="data-roads-from-openstreetmap" class="section level4" number="3.1.2.1">
+<h4>
+<span class="header-section-number">3.1.2.1</span> Data: roads from OpenStreetMap<a class="anchor" aria-label="anchor" href="#data-roads-from-openstreetmap"><i class="fas fa-link"></i></a>
+</h4>
+<p>The road network is taken from the collaborative online OpenStreetMap (OSM) project. OSM is a relatively novel source of volunteered geographic information, but since its 2004 inception has already been used in a wide range of geographical research <span class="citation">(<a href="references.html#ref-openstre2015" role="doc-biblioref">Jokar Arsanjani et al. 2015</a>)</span>. Although there have been questions raised about the quality and completeness of crowdsourced geospatial data <span class="citation">(<a href="references.html#ref-mooney2017" role="doc-biblioref">Mooney and Minghini 2017</a>)</span>, studies of OSM’s road network have found a high level of completeness <span class="citation">(<a href="references.html#ref-barrington-leigh2017" role="doc-biblioref">Barrington-Leigh and Millard-Ball 2017</a>)</span> and so this is unlikely to be a problem, particularly in prominent urban areas in an economically developed country such as Spain.</p>
+<p>The <code>OSMnx</code> Python package <span class="citation">(<a href="references.html#ref-boeing2017" role="doc-biblioref">Boeing 2017</a>)</span> is used to query the Overpass OSM application programming interface (API) and return all roads marked as drivable by general vehicular traffic<a href="references.html#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> within a 100 metre buffer around the boundary of the city.</p>
+</div>
+</div>
+<div id="blocks" class="section level3" number="3.1.3">
+<h3>
+<span class="header-section-number">3.1.3</span> Blocks<a class="anchor" aria-label="anchor" href="#blocks"><i class="fas fa-link"></i></a>
+</h3>
+<p>The block is a similar unit to the enclosures used in the process of generating ET cells, being delineated by the street network provided. They differ from enclosures in that blocks are built back up from ET cells, and so do not include those spaces surrounded by streets but not containing any building. Blocks are again generated using <code>momepy</code>.</p>
+</div>
+<div id="h3" class="section level3" number="3.1.4">
+<h3>
+<span class="header-section-number">3.1.4</span> H3<a class="anchor" aria-label="anchor" href="#h3"><i class="fas fa-link"></i></a>
+</h3>
+<p>H3 <span class="citation">(<a href="references.html#ref-brodsky2018" role="doc-biblioref">Brodsky 2018</a>)</span> is a hierarchical, hexagonal, global grid system initially developed by Uber Technologies to process and visualise the large amounts of spatial data they collect. It completely partitions the surface of the Earth into hexagons derived from a projection of the globe as a spherical icosahedron. For this reason each hexagonal H3 cell has approximately the same area as any other at the same resolution; the H3 grid does not suffer from the same problems of latitude-dependent size distortion a square grid on a Mercator projection would have. H3 was implemented using the <code>h3</code> Python bindings. A cell resolution of 10 is used, at which level each cell has an edge length of 65.9 metres and an area of 15,047.5 m<sup>2</sup>.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:h3-globe"></span>
+<img src="figures/h3-globe.png" alt="H3 partitions the globe into (mostly) hexagonal cells. Source: Brodsky (2018)." width="65%"><p class="caption">
+Figure 3.2: H3 partitions the globe into (mostly) hexagonal cells. Source: Brodsky (2018).
+</p>
+</div>
+<!--# [will talk more about the benefits/drawbacks of H3 in the discussion section] -->
+<p>Figure <a href="methods.html#fig:spatial-units">3.3</a> compares each of the four base spatial units employed in the dissertation.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:spatial-units"></span>
+<img src="figures/units/MT.png" alt="Different base spatial units: morphological tessellation, enclosed tessellation, blocks, and H3." width="48%"><img src="figures/units/ET.png" alt="Different base spatial units: morphological tessellation, enclosed tessellation, blocks, and H3." width="48%"><img src="figures/units/blocks.png" alt="Different base spatial units: morphological tessellation, enclosed tessellation, blocks, and H3." width="48%"><img src="figures/units/H3.png" alt="Different base spatial units: morphological tessellation, enclosed tessellation, blocks, and H3." width="48%"><p class="caption">
+Figure 3.3: Different base spatial units: morphological tessellation, enclosed tessellation, blocks, and H3.
+</p>
+</div>
+</div>
+</div>
+<div id="measuring-morphometric-characters" class="section level2" number="3.2">
+<h2>
+<span class="header-section-number">3.2</span> Measuring morphometric characters<a class="anchor" aria-label="anchor" href="#measuring-morphometric-characters"><i class="fas fa-link"></i></a>
+</h2>
+<p>The characters used as inputs when carrying out spatial segmentation are the data which determine the ultimate segmentations, and so it is imperative that these successfully capture the desired features: in this study, the morphology of an area.</p>
+<p>In clusterings which use the full set of characters (see Table <a href="methods.html#tab:characters-table">3.1</a>) there are three different elements on which characters are measured: buildings, tessellation cells, and blocks. Some characters—such as the area of the element—can be measured on all three elements, while others—such as the coverage area ratio, which reports the proportion of a tessellation cell covered by a building—can only be measured on (a) certain element(s).</p>
+<div id="data-building-information-from-the-spanish-cadastre-roads-from-openstreetmap" class="section level4" number="3.2.0.1">
+<h4>
+<span class="header-section-number">3.2.0.1</span> Data: building information from the Spanish Cadastre; roads from OpenStreetMap<a class="anchor" aria-label="anchor" href="#data-building-information-from-the-spanish-cadastre-roads-from-openstreetmap"><i class="fas fa-link"></i></a>
+</h4>
+<p>The two data sources used to generate morphometric characters are those already introduced: the Spanish cadastral dataset, and the drivable roads from OSM.</p>
+<p>The cadastral dataset provides multiple forms of geospatial information about each building: <code>Building</code> describes the geometry and attributes of each building, while the more granular <code>BuildingPart</code> gives separate information about the constituent parts of buildings, including the height of each part. This height (used to calculate several morphometric characters) is derived from the <code>numberOfFloorsAboveGround</code> attribute, which is multiplied by three to approximate a height value in metres (assuming that each floor is approximately three metres tall). As the attribute is only provided for <code>BuildingPart</code>s, a spatially weighted average of the heights of each building’s constituent parts is calculated to produce height information for each building. Before this was done, the <code>numberOfFloorsAboveGround</code> attribute was manually inspected and corrected in certain cases: for example some building parts reported a value of 106, despite the tallest building in Barcelona only having 44 floors.</p>
+<!--# could also include a formula if I have the time (https://pysal.org/tobler/generated/tobler.area_weighted.area_interpolate.html) -->
+</div>
+<div id="primary-characters" class="section level3" number="3.2.1">
+<h3>
+<span class="header-section-number">3.2.1</span> Primary characters<a class="anchor" aria-label="anchor" href="#primary-characters"><i class="fas fa-link"></i></a>
+</h3>
+<p>Each primary character quantifies an aspect of urban morphology with respect to a particular element (as described above). As wide a range of characters as reasonably possible is initially calculated in order to capture as many different aspects of urban form as possible. The primary characters are calculated using <code>momepy</code>. The initial set of characters is detailed in Table <a href="methods.html#tab:characters-table">3.1</a>. The character descriptions are primarily adapted from Fleischmann (2021) <span class="citation">Fleischmann (<a href="references.html#ref-fleischmannUrbanAtlasMethodological2021" role="doc-biblioref">2021</a>)</span> and <code>momepy</code> documentation.</p>
+<div class="inline-table"><table class="table" style="margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:characters-table">Table 3.1: </span>Initial set of urban morphometric characters. Those included in the H3 clustering are indicated with ’*’.
+</caption>
+<thead><tr>
+<th style="text-align:left;">
+Variable name
+</th>
+<th style="text-align:left;">
+Index
+</th>
+<th style="text-align:left;">
+Element
+</th>
+<th style="text-align:left;">
+Description
+</th>
+<th style="text-align:left;">
+H3
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+blg_Height
+</td>
+<td style="text-align:left;width: 14em; ">
+Height
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Height of building
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_FloorArea
+</td>
+<td style="text-align:left;width: 14em; ">
+Floor area
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Floor area of building
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_Area
+</td>
+<td style="text-align:left;width: 14em; ">
+Area
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Area of building
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_Volume
+</td>
+<td style="text-align:left;width: 14em; ">
+Volume
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Volume of building
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_Perimeter
+</td>
+<td style="text-align:left;width: 14em; ">
+Perimeter
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Perimeter of building
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_CourtyardArea
+</td>
+<td style="text-align:left;width: 14em; ">
+Courtyard area
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Area of holes in buildings (aka courtyards)
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_FormFactor
+</td>
+<td style="text-align:left;width: 14em; ">
+Form factor
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Compactness of building
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_VolumeFacadeRatio
+</td>
+<td style="text-align:left;width: 14em; ">
+Volume to façade ratio
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Ratio of building volume to area of the façade, a proxy for volumetric compactness
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_CircularCompactness
+</td>
+<td style="text-align:left;width: 14em; ">
+Circular compactness
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Ratio of area of building’s enclosing circle to its area
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_Corners
+</td>
+<td style="text-align:left;width: 14em; ">
+Corners
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Number of corners the building has
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_Squareness
+</td>
+<td style="text-align:left;width: 14em; ">
+Squareness
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Squareness of building
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_EquivalentRectangularIndex
+</td>
+<td style="text-align:left;width: 14em; ">
+Equivalent rectangular Index
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Deviation of building from an equivalent rectangle
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_Elongation
+</td>
+<td style="text-align:left;width: 14em; ">
+Elongation
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Ratio of shorter to longer dimension of the minimum bounding rectangle, a proxy for the deviation of the shape from a square
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_CentroidCornersMean
+</td>
+<td style="text-align:left;width: 14em; ">
+Centroid to corner mean
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Mean distance from building centroid to its corners
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_CentroidCornersSD
+</td>
+<td style="text-align:left;width: 14em; ">
+Centroid to corner standard deviation
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Standard deviation of distance from building centroid to its corners
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_Orientation
+</td>
+<td style="text-align:left;width: 14em; ">
+Orientation
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Orientation of the building
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_SharedWallsRatio
+</td>
+<td style="text-align:left;width: 14em; ">
+Shared walls ratio
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Ratio of shared walls to total perimeter
+</td>
+<td style="text-align:left;">
+<ul><li></ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blg_CellAlignment
+</td>
+<td style="text-align:left;width: 14em; ">
+Cell alignment
+</td>
+<td style="text-align:left;">
+Building
+</td>
+<td style="text-align:left;width: 18em; ">
+Calculate the difference between cell orientation and orientation of building
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tess_Orientation
+</td>
+<td style="text-align:left;width: 14em; ">
+Orientation
+</td>
+<td style="text-align:left;">
+Tessellation cell
+</td>
+<td style="text-align:left;width: 18em; ">
+Orientation of the tessellation cell (calculated via the bounding rectangle)
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tess_LongestAxisLength
+</td>
+<td style="text-align:left;width: 14em; ">
+Longest axis length
+</td>
+<td style="text-align:left;">
+Tessellation cell
+</td>
+<td style="text-align:left;width: 18em; ">
+Length of the longest axis of tessellation cell
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tess_Area
+</td>
+<td style="text-align:left;width: 14em; ">
+Area
+</td>
+<td style="text-align:left;">
+Tessellation cell
+</td>
+<td style="text-align:left;width: 18em; ">
+Area of tessellation cell
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tess_CircularCompactness
+</td>
+<td style="text-align:left;width: 14em; ">
+Circular compactness
+</td>
+<td style="text-align:left;">
+Tessellation cell
+</td>
+<td style="text-align:left;width: 18em; ">
+Ratio of area of tessellation cell’s enclosing circle to its area
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tess_EquivalentRectangularIndex
+</td>
+<td style="text-align:left;width: 14em; ">
+Equivalent rectangular Index
+</td>
+<td style="text-align:left;">
+Tessellation cell
+</td>
+<td style="text-align:left;width: 18em; ">
+Deviation of tessellation cell from an equivalent rectangle
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tess_WeightedNeighbours
+</td>
+<td style="text-align:left;width: 14em; ">
+Weighted neighbours
+</td>
+<td style="text-align:left;">
+Tessellation cell
+</td>
+<td style="text-align:left;width: 18em; ">
+Number of tessellation cell neighbours divided by the cell perimeter
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tess_CoverageAreaRatio
+</td>
+<td style="text-align:left;width: 14em; ">
+Coverage area ratio
+</td>
+<td style="text-align:left;">
+Tessellation cell
+</td>
+<td style="text-align:left;width: 18em; ">
+Proportion of tessellation cell covered by a building
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tess_FloorAreaRatio
+</td>
+<td style="text-align:left;width: 14em; ">
+Floor area ratio
+</td>
+<td style="text-align:left;">
+Tessellation cell
+</td>
+<td style="text-align:left;width: 18em; ">
+Ratio of floor area to tessellation cell area
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blk_Area
+</td>
+<td style="text-align:left;width: 14em; ">
+Area
+</td>
+<td style="text-align:left;">
+Block
+</td>
+<td style="text-align:left;width: 18em; ">
+Area of block
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blk_Perimeter
+</td>
+<td style="text-align:left;width: 14em; ">
+Perimeter
+</td>
+<td style="text-align:left;">
+Block
+</td>
+<td style="text-align:left;width: 18em; ">
+Perimeter of block
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blk_CircularCompactness
+</td>
+<td style="text-align:left;width: 14em; ">
+Circular compactness
+</td>
+<td style="text-align:left;">
+Block
+</td>
+<td style="text-align:left;width: 18em; ">
+Ratio of area of block’s enclosing circle to area of block
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blk_EquivalentRectangularIndex
+</td>
+<td style="text-align:left;width: 14em; ">
+Equivalent rectangular Index
+</td>
+<td style="text-align:left;">
+Block
+</td>
+<td style="text-align:left;width: 18em; ">
+Deviation of block from an equivalent rectangle
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blk_CompactnessWeightedAxis
+</td>
+<td style="text-align:left;width: 14em; ">
+Compactness-weighted axis
+</td>
+<td style="text-align:left;">
+Block
+</td>
+<td style="text-align:left;width: 18em; ">
+Compactness-weighted axis of block, a proxy of permeability of an area
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blk_Orientation
+</td>
+<td style="text-align:left;width: 14em; ">
+Orientation
+</td>
+<td style="text-align:left;">
+Block
+</td>
+<td style="text-align:left;width: 18em; ">
+Orientation of the block (calculated via its bounding rectangle)
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blk_WeightedNeighbours
+</td>
+<td style="text-align:left;width: 14em; ">
+Weighted neighbours
+</td>
+<td style="text-align:left;">
+Block
+</td>
+<td style="text-align:left;width: 18em; ">
+Number of block neighbours divided by the block perimeter
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+blk_WeightedBuildings
+</td>
+<td style="text-align:left;width: 14em; ">
+Weighted buildings
+</td>
+<td style="text-align:left;">
+Block
+</td>
+<td style="text-align:left;width: 18em; ">
+Number of buildings within the block divided by the block area
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div id="selecting-characters" class="section level3" number="3.2.2">
+<h3>
+<span class="header-section-number">3.2.2</span> Selecting characters<a class="anchor" aria-label="anchor" href="#selecting-characters"><i class="fas fa-link"></i></a>
+</h3>
+<p>The information provided by each character must vary spatially, that is to say that if the values of a character are randomly distributed throughout a city or do not vary at all, the character is not useful in a <em>spatial</em> segmentation, which is premised on dividing the city based on the ways in which given input values vary over space. For this reason, the spatial autocorrelation of each character throughout the study area is assessed by calculating the Global Moran’s <em>I</em>. If this is not statistically significant, the character is not spatially autocorrelated and therefore is discarded. All characters used in the segmentations were found to exhibit significant spatial autocorrelation (positive Moran’s <em>I</em> value and <em>p</em> &lt; 0.005).</p>
+<p>A degree of correlation is expected between certain characters, but if multiple characters are highly correlated this may be indicative of two or more characters representing essentially the same concept, thus not providing a significant amount of additional information and skewing the results of the clustering. For this reason, the degree of correlation between each of the characters is inspected. As the distributions of values in each character is not necessarily normal, Spearman’s rank correlation coefficient is computed to quantify the degree to which each character is correlated to each other character. Figure <a href="methods.html#fig:correlation-matrix">3.4</a> provides an example of this process for the characters generated on ET cells.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:correlation-matrix"></span>
+<img src="figures/ET_correlations.pdf" alt="Correlation matrix of morphometric characters." width="100%"><p class="caption">
+Figure 3.4: Correlation matrix of morphometric characters.
+</p>
+</div>
+<p>On the basis of Figure <a href="methods.html#fig:correlation-matrix">3.4</a>, four characters were removed on the basis of exhibiting too high a degree of collinearity: <code>blg_CentroidCornersMean</code>, <code>blg_Perimeter</code>, <code>blk_Perimeter</code>, and <code>blk_CompactnessWeightedAxis</code>.</p>
+</div>
+<div id="contextual-characters" class="section level3" number="3.2.3">
+<h3>
+<span class="header-section-number">3.2.3</span> Contextual characters<a class="anchor" aria-label="anchor" href="#contextual-characters"><i class="fas fa-link"></i></a>
+</h3>
+<p>As there is no explicitly spatial input to the clustering algorithm used (for all but one of the segmentations), there is no guarantee that any clusters generated from purely the primary characters will form spatially contiguous areas (that is, the eventual spatial segmentations). Furthermore, since the base units are small (particularly in the case of ET/MT cells, which only delineate the area around a single building) they cannot uniquely capture the morphology of the urban tissue to which they belong. The use of spatial weights to incorporate information about the neighbouring spatial units therefore expands the geographic extent of morphometric information supplied while preserving the spatial granularity provided by the base units in a way which would not be achieved by simply aggregating the characters to less granular spatial units.</p>
+<p>When used with ET/MT cells, the contextual characters also reflect how humans perceive (urban) space. While the measured geographic distance may be equal, a person’s mental conception of the distance between two points will be different if the area between these is a built environment with a high density of streets and buildings, compared to an open landscape with fewer roads or features. Using topological steps based on ET/MT cells can therefore be seen as a more theoretically sound reflection of the relationship between different elements than a simple distance buffer or <em>k</em> nearest neighbours, and a better way to describe the morphology of the vicinity of a given cell <span class="citation">(<a href="references.html#ref-fleischmann2020tessellation" role="doc-biblioref">Fleischmann et al. 2020</a>)</span>.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:spatial-weights"></span>
+<img src="figures/spatial_weights.png" alt="An example of the topological neighbours used to create contextual characters for a tessellation cell: the darkest green is the original cell and each shade lighter represents one extra degree of topological distance from this cell." width="65%"><p class="caption">
+Figure 3.5: An example of the topological neighbours used to create contextual characters for a tessellation cell: the darkest green is the original cell and each shade lighter represents one extra degree of topological distance from this cell.
+</p>
+</div>
+<p>To generate contextual characters, a spatial weights matrix is created for the base spatial unit: this records which cells are neighbours of a given cell. The definition of ‘neighbour’ in this context depends on the number of topological steps stipulated when computing the spatial weights (the order of contiguity, <em>k</em>). If <em>k</em> = 1, queen contiguity-based spatial weights are used such that any cell sharing a common edge or vertex is counted as a neighbour. If <em>k</em> <span class="math inline">\(\leq\)</span> 2, the spatial weight will define as a ‘neighbour’ both the cells included as neighbours in the <em>k</em> = 1 criterion and <em>their neighbours</em> according to the same criterion, and so on such that as <em>k</em> increases so does the maximum number of topological steps between a cell and its ‘neighbour’ (see Figure <a href="methods.html#fig:spatial-weights">3.5</a>).</p>
+<p>For each character and each cell, the interquartile mean (IQM) is then calculated from that character’s values in all cells defined as a neighbour in the spatial weights matrix provided. The IQM is calculated by taking the mean average of all values between the lower and upper quartile when ordered, and as such is less affected by outliers than a simple mean of all values.</p>
+</div>
+</div>
+<div id="clustering" class="section level2" number="3.3">
+<h2>
+<span class="header-section-number">3.3</span> Clustering<a class="anchor" aria-label="anchor" href="#clustering"><i class="fas fa-link"></i></a>
+</h2>
+<p>In all but one segmentations presented in this dissertation, the clustering of cells into urban tissues was carried out using a Gaussian Mixture Model (GMM), a probabilistic derivative of <em>k</em>-means. GMM models the distribution of each dimension (in our case each (contextual) character) of each cluster as a Gaussian distribution, rather than using <em>k</em>-means’ simpler distance-based model. This allows clusters to have different shapes (in the hyperspace in which they are clustered), for instance ellipses, rather than classifying each point according to its nearest cluster centroid (as measured by Euclidean distance in <em>n</em>-dimensional hyperspace, where <em>n</em> = the number of characters). The GMM is implemented with the <code>GaussianMixture</code> algorithm from the scikit-learn Python package <span class="citation">(<a href="references.html#ref-pedregosa2011" role="doc-biblioref">Pedregosa et al. 2011</a>)</span>.</p>
+<p>Agglomerative Clustering is an alternative clustering algorithm, employed because it allows the incorporation of a spatial constraint; it can be stipulated that when mapped, the clusters generated must all be spatially contiguous<a href="references.html#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Unlike GMM, Agglomerative Clustering requires a spatial weights matrix: this allows it to operationalise the spatial constraint by providing a definition of which cells are and are not counted as neighbours.</p>
+<div id="determining-n" class="section level3" number="3.3.1">
+<h3>
+<span class="header-section-number">3.3.1</span> Determining <em>n</em><a class="anchor" aria-label="anchor" href="#determining-n"><i class="fas fa-link"></i></a>
+</h3>
+<p>GMM requires the number of clusters (<em>n</em>) to be specified a priori, a decision which must satisfy both statistical and theoretical considerations.</p>
+<p>An elbow plot is a typical method used to determine the appropriate number of clusters in an unsupervised clustering of this nature. The <em>x</em>-axis plots the number of clusters, while the <em>y</em>-axis charts a metric quantifying the goodness of fit of a clustering with <em>n</em> clusters. The Bayesian Information Criterion (BIC) is one such measure, providing a quantification of the clustering fit, penalising a higher number of clusters in order to deter overfitting. Figure <a href="methods.html#fig:elbow">3.6</a> shows an example elbow plot charting the number of clusters against the BIC for a segmentation using ET cells with contextual characters from 5th order spatial weights. The plot serves to illustrate the diminishing returns of improvements in the clustering fit as <em>n</em> increases, and therefore acts as a guide to choosing the ‘optimal’ <em>n</em>.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:elbow"></span>
+<img src="figures/ET_BIC.pdf" alt="An elbow plot for a segmentation with ET cells and contextual characters from 5th order contiguity weights. The shaded area represents the 95\% confidence interval." width="100%"><p class="caption">
+Figure 3.6: An elbow plot for a segmentation with ET cells and contextual characters from 5th order contiguity weights. The shaded area represents the 95% confidence interval.
+</p>
+</div>
+<!--# add more interpretation -->
+<p>It is important that diagnostic statistics and methods such as the BIC not be blindly followed and seen to unambiguously indicate the optimal <em>n</em>. While there may be many statistically distinct clusters may be distinguished, these may not reflect real/clear differences in urban morphology.</p>
+</div>
+</div>
+<div id="comparing-different-segmentations" class="section level2" number="3.4">
+<h2>
+<span class="header-section-number">3.4</span> Comparing different segmentations<a class="anchor" aria-label="anchor" href="#comparing-different-segmentations"><i class="fas fa-link"></i></a>
+</h2>
+<p>Many different segmentations were carried out varying different parameters. Seven of these resultant spatial segmentations are reported below: these have been selected to showcase a range of differing possible approaches to certain elements of the methodology, and the effects these methodological changes have on the segmentations generated. Figure <a href="methods.html#fig:segmentation-flowchart">3.7</a> presents a graphical comparison of the methodologies used to generate each of these segmentations.</p>
+<div id="morphological-tessellation-1" class="section level4" number="3.4.0.1">
+<h4>
+<span class="header-section-number">3.4.0.1</span> Morphological tessellation<a class="anchor" aria-label="anchor" href="#morphological-tessellation-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>This segmentation generates all characters in Table <a href="methods.html#tab:characters-table">3.1</a> using MT cells. 5th-order contiguity spatial weights are then used to compute the IQM for each character in the neighbourhood of each MT cell. These values are used as inputs to a GMM clustering to generate the segmentation.</p>
+</div>
+<div id="enclosed-tessellation-1" class="section level4" number="3.4.0.2">
+<h4>
+<span class="header-section-number">3.4.0.2</span> Enclosed tessellation<a class="anchor" aria-label="anchor" href="#enclosed-tessellation-1"><i class="fas fa-link"></i></a>
+</h4>
+<p>This segmentation is identical to the morphological tessellation segmentation, save for its use of enclosed tessellation cells in place of morphological tessellation cells. While seemingly minor, carrying out a segmentation with this as the sole difference allows any differences between the two spatial units when carrying out an UMM-based clustering to be methodically examined.</p>
+<div id="transposed-to-block-geometry" class="section level5" number="3.4.0.2.1">
+<h5>
+<span class="header-section-number">3.4.0.2.1</span> ET transposed to block geometry<a class="anchor" aria-label="anchor" href="#transposed-to-block-geometry"><i class="fas fa-link"></i></a>
+</h5>
+<p>As the ET cells are small geometries which may for example separate buildings sharing a wall, any segmentation using this geometry may have ‘messy’ borders between clusters, even when using high-order contiguity weights. To reduce this issue, this segmentation takes the output from the above enclosed tessellation segmentation and classifies each block according to the cluster label which takes up the greatest proportion of the block’s area. This is done using the <code>area_join</code> function in the <code>tobler</code> package in Python <span class="citation">(<a href="references.html#ref-knaap2021" role="doc-biblioref">Knaap et al. 2021</a>)</span>.</p>
+</div>
+<div id="et-transposed-to-h3-geometry" class="section level5" number="3.4.0.2.2">
+<h5>
+<span class="header-section-number">3.4.0.2.2</span> ET transposed to H3 geometry<a class="anchor" aria-label="anchor" href="#et-transposed-to-h3-geometry"><i class="fas fa-link"></i></a>
+</h5>
+<p>As with the above transposition to block geometry, but with the level 10 H3 cells.</p>
+</div>
+</div>
+<div id="h3-basic" class="section level4" number="3.4.0.3">
+<h4>
+<span class="header-section-number">3.4.0.3</span> H3 ‘basic’<a class="anchor" aria-label="anchor" href="#h3-basic"><i class="fas fa-link"></i></a>
+</h4>
+<p>The ‘basic’ H3 clustering entirely eschews the use of ET or MT cells, instead only calculating the characters marked as ‘*’ in Table <a href="methods.html#tab:characters-table">3.1</a>, all of which have the building as their element. The value of each character in each H3 cell is then calculated from a spatially weighted average of the values of the buildings within the cell, computed using <code>tobler</code>’s <code>area_interpolate</code> function.</p>
+</div>
+<div id="h3-with-et-characters" class="section level4" number="3.4.0.4">
+<h4>
+<span class="header-section-number">3.4.0.4</span> H3 with ET characters<a class="anchor" aria-label="anchor" href="#h3-with-et-characters"><i class="fas fa-link"></i></a>
+</h4>
+<p>This segmentation uses the full set of characters generated using ET cells, transposed onto the H3 geometry. A first order contiguity weight (using the H3 cell as the unit) is then used to create contextual characters, which are used as the input to a GMM clustering to generate the final segmentation.</p>
+</div>
+<div id="spatially-constrained-mt" class="section level4" number="3.4.0.5">
+<h4>
+<span class="header-section-number">3.4.0.5</span> Spatially constrained MT<a class="anchor" aria-label="anchor" href="#spatially-constrained-mt"><i class="fas fa-link"></i></a>
+</h4>
+<p>This segmentation uses the full set of characters generated using MT cells, but substitutes the GMM algorithm for scikit-learn’s <code>AgglomerativeClustering</code> regionalisation algorithm. This stipulates that all clusters must be spatially contiguous.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:segmentation-flowchart"></span>
+<img src="figures/segmentations%20flowchart.pdf" alt="A flowchart showing the methodological differences in the construction of each segmentation." width=".8\paperwidth"><p class="caption">
+Figure 3.7: A flowchart showing the methodological differences in the construction of each segmentation.
+</p>
+</div>
+</div>
+</div>
+<div id="assessing-segmentations" class="section level2" number="3.5">
+<h2>
+<span class="header-section-number">3.5</span> Assessing segmentations<a class="anchor" aria-label="anchor" href="#assessing-segmentations"><i class="fas fa-link"></i></a>
+</h2>
+<p>For each segmentation, two distinct—albeit related—factors should be assessed: how well the segmentation captures differences in urban form types; and how well the segmentation captures the variation in other variables of potential interest, such as property prices.</p>
+<div id="relation-to-urban-morphology" class="section level3" number="3.5.1">
+<h3>
+<span class="header-section-number">3.5.1</span> Relation to urban morphology<a class="anchor" aria-label="anchor" href="#relation-to-urban-morphology"><i class="fas fa-link"></i></a>
+</h3>
+<p>The former of these assessments is significantly more challenging, not lending itself to any obvious quantitative form of validation and hence requiring a greater degree of subjective judgement. Past studies which segment cities on the basis of their urban morphology use “visual observation and personal knowledge of the city” <span class="citation">(<a href="references.html#ref-fleischmann2021" role="doc-biblioref">Fleischmann et al. 2021</a>: 20)</span> to assess the validity of their segmentations, but this is challenging in cases when the author does not have this personal knowledge of the city in question (as is the case in this dissertation). In lieu of this, each segmentation is mapped over the outlines of the city’s blocks (as given by the cadastral data), allowing a visual comparison of the segmentation to underlying urban structure. Note that these outlines should not be mistaken for those of the base spatial units that have been clustered to produce the segmentations.</p>
+</div>
+<div id="relation-to-property-prices" class="section level3" number="3.5.2">
+<h3>
+<span class="header-section-number">3.5.2</span> Relation to property prices<a class="anchor" aria-label="anchor" href="#relation-to-property-prices"><i class="fas fa-link"></i></a>
+</h3>
+<p><span class="citation">Fleischmann et al. (<a href="references.html#ref-fleischmann2021" role="doc-biblioref">2021</a>)</span> also validate their clustering by measuring the correlation with other urban dynamics expected to correlate (the age of buildings, land use, and qualitative classification of urban form in official planning documents). This principle of validation by comparison with a correlate is echoed in the following section, which assesses the degree to which the segmentations produced capture variation in property prices across a city.</p>
+<div id="data-house-price-indices" class="section level4" number="3.5.2.1">
+<h4>
+<span class="header-section-number">3.5.2.1</span> Data: house price indices<a class="anchor" aria-label="anchor" href="#data-house-price-indices"><i class="fas fa-link"></i></a>
+</h4>
+<p>In addition to the cadastral dataset, idealista provide their own proprietary real estate data, which is used to assess the utility of the segmentations generated as proxies for housing submarkets. The data provide the average sale price of all properties within a cadastral parcel, and are sourced from idealista’s online real estate marketplace listings. Figure <a href="methods.html#fig:house-price-coverage">3.8</a> shows the coverage of the house price indices data used: those cadastral parcels with values for the average sale property price are blue, while those without this information are red.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:house-price-coverage"></span>
+<img src="figures/maps/house_data_map.png" alt="A map of the spatial coverage of the house price indices data in Barcelona." width="65%"><p class="caption">
+Figure 3.8: A map of the spatial coverage of the house price indices data in Barcelona.
+</p>
+</div>
+<p>When making this evaluation, clarity about the spatial unit actually being assessed is essential. In all of the novel segmentations reported, there is a distinction between the <em>types</em> identified, and the distinct <em>polygons</em> into which the city is partitioned. In the following analysis, the <em>types</em> describe each of the numbered clusters (8 of them in most segmentations) as integrated units of comparison, irrespective of their geographical location. This means that two areas on opposite sides of a city—both classified as having the same morphological type and thus assigned to the same cluster—will be counted as belonging to the same group.</p>
+<p>Conversely, <em>polygons</em> treat each individual polygon in the segmentation as a separate group, such that two non-contiguous areas with the same initial cluster label will be counted as belonging to separate groups, and hence be treated separately when measuring within-group variation<a href="references.html#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
+<p>For both spatial units, (types and polygons), the relationship between each segmentation and variation in property prices is quantified using the quartile coefficient of dispersion [QCoD; <span class="citation">Zwillinger and Kokoska (<a href="references.html#ref-zwillinger1999" role="doc-biblioref">1999</a>)</span>, 17]. As the name suggests, this metric measures the dispersion of values within each unit, specifically that of the CP-level idealista house sale price indices described above.</p>
+<p>A lower QCoD for a type/polygon, and a lower average QCoD for all the types/polygons within a segmentation is therefore indicative of units which contain more similar properties, and therefore can be seen to better represent housing submarkets. The QCoD is calculated as:</p>
+<p><span class="math display">\[
+QCoD=\frac{Q_{3}-Q_{1}}{Q_{3}+Q_{1}}
+\]</span></p>
+<p>Where <span class="math inline">\(Q_1\)</span> and <span class="math inline">\(Q_3\)</span> denote the lower and upper quartile values, respectively. Its use of the quartile values ensures that the final statistic is not skewed by extreme outliers, such as one very expensive property in an otherwise inexpensive neighbourhood, while still communicating the spread of values within a given type or polygon. As some of the individual polygons will comprise only very small areas (as discussed in the <a href="results.html#polygon-metrics">next chapter</a>), polygons containing fewer than ten cadastral parcels with attached house price data are excluded from analyses which calculate and report the polygon-level QCoD.</p>
+<p>In addition to the types and polygons from each of the seven segmentations, the QCoD is also computed for existing spatial segmentations which may be used to represent spatial housing submarkets, allowing a comparison of the novel segmentations to existing spatial units. These existing spatial units are:</p>
+<ol style="list-style-type: decimal">
+<li>The <strong>neighbourhoods</strong> are Barcelona’s 73 <em>barris</em> (Catalan) / <em>barrios</em> (Spanish).</li>
+<li>The <strong>districts</strong> are the 10 <em>districtes municipals</em> (Catalan) / <em>distritos municipales</em> (Spanish) into which Barcelona is divided.</li>
+<li>The ‘<strong>idealista polygons</strong>’ are taken from the units currently used internally within idealista as a bespoke spatial unit for use in analyses involving geographical aggregations of data: Barcelona contains 69 of these units.</li>
+</ol>
+<p>The boundaries used for the neighbourhoods and districts are those provided by the Ajuntament de Barcelona on the Open Data BCN website <span class="citation">(<a href="references.html#ref-institutmunicipaldinform%C3%A0tica2017" role="doc-biblioref">Institut Municipal d’Informàtica 2017</a>)</span>, while the idealista polygons have been provided by the company.</p>
+<p>Because different segmentations will produce units of different areas, which will in turn affect the potential dispersion within these units, for each segmentation the mean of the areas of types/polygons in the segmentation is reported, along with a boxplot showing the distribution of these type/polygon areas.</p>
+
+</div>
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="lit-review.html"><span class="header-section-number">2</span> Literature Review</a></div>
+<div class="next"><a href="results.html"><span class="header-section-number">4</span> Results</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#methods"><span class="header-section-number">3</span> Methodology</a></li>
+<li>
+<a class="nav-link" href="#base-spatial-units"><span class="header-section-number">3.1</span> Base spatial units</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#morphological-tessellation"><span class="header-section-number">3.1.1</span> Morphological tessellation</a></li>
+<li><a class="nav-link" href="#enclosed-tessellation"><span class="header-section-number">3.1.2</span> Enclosed tessellation</a></li>
+<li><a class="nav-link" href="#blocks"><span class="header-section-number">3.1.3</span> Blocks</a></li>
+<li><a class="nav-link" href="#h3"><span class="header-section-number">3.1.4</span> H3</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#measuring-morphometric-characters"><span class="header-section-number">3.2</span> Measuring morphometric characters</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#primary-characters"><span class="header-section-number">3.2.1</span> Primary characters</a></li>
+<li><a class="nav-link" href="#selecting-characters"><span class="header-section-number">3.2.2</span> Selecting characters</a></li>
+<li><a class="nav-link" href="#contextual-characters"><span class="header-section-number">3.2.3</span> Contextual characters</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#clustering"><span class="header-section-number">3.3</span> Clustering</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#determining-n"><span class="header-section-number">3.3.1</span> Determining n</a></li></ul>
+</li>
+<li><a class="nav-link" href="#comparing-different-segmentations"><span class="header-section-number">3.4</span> Comparing different segmentations</a></li>
+<li>
+<a class="nav-link" href="#assessing-segmentations"><span class="header-section-number">3.5</span> Assessing segmentations</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#relation-to-urban-morphology"><span class="header-section-number">3.5.1</span> Relation to urban morphology</a></li>
+<li><a class="nav-link" href="#relation-to-property-prices"><span class="header-section-number">3.5.2</span> Relation to property prices</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Using Urban Morphology to Improve Housing Submarket Spatial Segmentation</strong>" was written by Matthew Law. </p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+This dissertation could not have been written without the help of many people, a few of whom are acknowledged below.
+
+Throughout the project, my supervisor Dani Arribas-Bel has offered expert advice and guidance; throughout the year he has worked to ensure the quality of my remote experience at Liverpool. I am particularly grateful to Martin Fleischmann, not only for his development of `momepy`, an invaluable tool in measuring the morphometric characters of urban spaces, but also for the help he provided with several of the thornier technical issues I encountered while completing this dissertation.
+
+This project was organised through the Consumer Data Research Centre's [Master's Dissertation Scheme](https://www.cdrc.ac.uk/education-and-training/masters-dissertation-scheme/), and so I thank those involved in the Scheme for facilitating the collaboration with idealista. At idealista, Juan Ramón Selva-Royo was vital in helping determine the direction of the dissertation, and provided me with both necessary data and helpful feedback.
+
+I am forever grateful to my parents and grandparents, who provided me with countless forms of support, not least a pleasant working environment throughout the time I spent on the dissertation. I'm also thankful to all the friends who have in some way helped over the course of this dissertation – particular thanks are due to Ben, who tried his best to stop me leaving all the writing until the last minute; and to Marie-Laure, for foolishly agreeing to proofread.
+
+
+\begin{flushright}
+Matthew Law \\
+15 September 2021
+\end{flushright}

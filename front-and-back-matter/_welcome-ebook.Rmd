@@ -1,0 +1,26 @@
+# Welcome {-}
+
+::: {.row}
+:::::: {.col-sm-6}
+Welcome to the web version of the dissertation I completed as part of the Geographic Data Science MSc I completed at the University of Liverpool.
+To view the PDF version, [click here](_main.pdf) (or click the cover image). The PDF and website should be identical in all but presentation, so choose whichever is most convenient for you. In both, chapter, section, table, and figure references should be hyperlinked.
+
+::::::::: {.byline}
+Matthew Law \
+15 September 2021
+:::::::::
+::::::
+
+:::::: {.col-sm-6 .thesis-cover}
+<a href="_main.pdf" target="_blank"><img src="templates/cover.png" alt="Download PDF" class="img-fluid"/></a> 
+::::::
+:::
+
+## Abstract {-}
+```{r abstract, child=here::here('front-and-back-matter/_abstract.Rmd')}
+```
+
+
+## Acknowledgments {-}
+```{r acknowledgments, child=here::here('front-and-back-matter/_acknowledgements.Rmd')}
+```
